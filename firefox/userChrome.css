@@ -1,0 +1,22 @@
+:root {
+  --toolbar-bgcolor: none;
+  --tab-min-height: 30px;
+}
+
+.browser-toolbar {
+  background-color: black !important;
+}
+
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon:-moz-lwtheme, #tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-background[multiselected="true"]:-moz-lwtheme, #tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-background[selected="true"]:-moz-lwtheme {
+  background-color: var(--toolbar-field-background-color) !important; /*var(--lwt-selected-tab-background-color);*/
+  background-image: none !important;
+}
+
+/* Open debugger with <Ctrl-Shift-Alt-I> */
+
+#context-setDesktopBackground       { display: none; }
+#context-savelinktopocket           { display: none; }
+#context-sendimage                  { display: none; }
+#context-saveimage                  { display: none; }
+#context-stripOnShareLink           { display: none; }
+#context-openlinkinusercontext-menu { display: none; }
