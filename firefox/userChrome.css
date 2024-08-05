@@ -7,11 +7,6 @@
   background-color: black !important;
 }
 
-#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon:-moz-lwtheme, #tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-background[multiselected="true"]:-moz-lwtheme, #tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-background[selected="true"]:-moz-lwtheme {
-  background-color: var(--toolbar-field-background-color) !important; /*var(--lwt-selected-tab-background-color);*/
-  background-image: none !important;
-}
-
 /* Open debugger with <Ctrl-Shift-Alt-I> */
 
 #context-setDesktopBackground       { display: none; }
