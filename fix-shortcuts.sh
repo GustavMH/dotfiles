@@ -3,7 +3,7 @@
 
 # firefox -> Browser
 sed -e 's/Name=Firefox Developer Edition/Name=Browser/g' \
-    -i /usr/share/applications/firefoxdeveloperedition.desktop
+    -i /usr/share/applications/firefox-developer-edition.desktop
 
 # evolution -> Email
 sed -e 's/Name=Evolution/Name=Mail/g' \
