@@ -48,12 +48,12 @@
 ;  ;(global-set-key (kbd "C-l") (insert "λ"))
 ;  (define-key key-translation-map (kbd "C-l") (kbd "λ")))
 
-(defun insert-greek-lambda ()
-  "Insert the Greek letter lambda (λ) at the cursor position."
+(defun insert-lambda ()
+  "Insert λ at the cursor position."
   (interactive)
   (insert "λ"))
 
-(global-set-key (kbd "C-l") 'insert-greek-lambda)
+(global-set-key (kbd "C-l") 'insert-lambda)
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
