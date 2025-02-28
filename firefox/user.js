@@ -15,6 +15,7 @@ browser.theme.content-theme	0
 browser.theme.toolbar-theme	0
 datareporting.healthreport.uploadEnabled	false
 findbar.highlightAll	true
+middlemouse.paste  false
 
 
 // Newtab + startup
