@@ -7,6 +7,10 @@
   background-color: black !important;
 }
 
+#navigator-toolbox {
+  border-bottom: none !important;
+}
+
 /* Open debugger with <Ctrl-Shift-Alt-I> */
 
 #context-setDesktopBackground       { display: none; }
