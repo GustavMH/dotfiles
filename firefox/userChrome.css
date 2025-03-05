@@ -19,3 +19,8 @@
 #context-saveimage                  { display: none; }
 #context-stripOnShareLink           { display: none; }
 #context-openlinkinusercontext-menu { display: none; }
+#context-take-screenshot            { display: none; }
+#context-pocket                     { display: none; }
+
+#context-sep-setbackground          { display: none; }
+#context-sep-screenshots            { display: none; }
