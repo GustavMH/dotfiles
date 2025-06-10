@@ -55,6 +55,15 @@
 
 (global-set-key (kbd "C-l") 'insert-lambda)
 
+; Remove the license shortcut
+(global-unset-key (kbd "C-h C-w"))
+
+; Disable eldoc
+(global-eldoc-mode -1)
+
+; Load ispell with exit bound to ESC
+(load "~/projects/fix/emacs-ispell/ispell.el")
+
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
 ;;
